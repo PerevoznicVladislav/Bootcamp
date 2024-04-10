@@ -89,7 +89,7 @@ print(f_string)
 # Verifică dacă string-ul creat se termină cu `!`
 
 # CODUL TĂU VINE MAI JOS:
-print('!' in f_string)
+print(f_string.endswith('!'))
 # CODUL TĂU VINE MAI SUS:
 
 # Verifică dacă string-ul creat începe cu `Hello`
